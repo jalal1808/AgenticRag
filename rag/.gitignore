@@ -1,0 +1,58 @@
+# -------------------------
+# Virtual environments
+# -------------------------
+.venv/
+venv/
+env/
+
+# -------------------------
+# Python cache / artifacts
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+.eggs/
+build/
+dist/
+
+# -------------------------
+# Environment / secrets
+# -------------------------
+.env
+*.env
+
+# -------------------------
+# Project-specific
+# -------------------------
+uv.lock
+
+# -------------------------
+# OS / Editor files
+# -------------------------
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# -------------------------
+# Dependency managers
+# -------------------------
+# If using poetry
+poetry.lock
+
+# If using pip
+pip-wheel-metadata/
+pip-log.txt
+
+# -------------------------
+# Misc
+# -------------------------
+*.log
